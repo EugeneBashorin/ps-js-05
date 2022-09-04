@@ -16,3 +16,13 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.field{
+  display: inline-block;
+  margin-right: 10px;
+}
+.field span{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

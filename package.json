@@ -1,14 +1,16 @@
 {
     "name": "my-project",
     "source": "src/index.html",
-    
-
     "browserslist": "> 0.5%, last 2 versions, not dead",
     "scripts": {
-      "start": "parcel src/*.html",
-      "build": "parcel build"
+        "start": "parcel src/*.html",
+        "build": "parcel build"
     },
     "devDependencies": {
-      "parcel": "latest"
+        "parcel": "latest"
+    },
+    "dependencies": {
+        "flatpickr": "^4.6.13",
+        "notiflix": "^3.2.5"
     }
-  }
+}
